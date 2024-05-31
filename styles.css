@@ -24,10 +24,27 @@ body {
     margin-bottom: 20px;
 }
 
-.button-container {
+.h-shape {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.vertical-bar, .horizontal-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vertical-bar {
+    justify-content: space-between;
+    height: 300px;
+}
+
+.horizontal-bar {
+    width: 200px;
+    margin: 0 20px;
 }
 
 .button {
@@ -39,6 +56,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin: 10px 0;
 }
 
 .button:hover {
@@ -46,10 +64,10 @@ body {
 }
 
 .custom-label {
-    margin-top: 20px;
     padding: 10px;
     font-size: 18px;
     color: #000000;
     background-color: #333333;
     border-radius: 5px;
+    text-align: center;
 }
