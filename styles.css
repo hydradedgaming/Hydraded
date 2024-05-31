@@ -19,19 +19,14 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.h-shape {
-    display: flex;
-    justify-content: space-between;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .label {
     font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
     margin-bottom: 20px;
 }
 
@@ -43,7 +38,6 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin: 10px 0;
     transition: background-color 0.3s;
 }
 
@@ -57,14 +51,5 @@ body {
     font-size: 18px;
     color: #000000;
     background-color: #333333;
-    border-radius: 5px;
-}
-
-#additional-label {
-    margin-top: 10px;
-    padding: 10px;
-    font-size: 16px;
-    color: #ffffff;
-    background-color: #000000;
     border-radius: 5px;
 }
