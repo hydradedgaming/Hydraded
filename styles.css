@@ -28,6 +28,7 @@ body {
 .button-container {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 .button {
@@ -43,4 +44,13 @@ body {
 
 .button:hover {
     background-color: #0056b3;
+}
+
+.custom-label {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #333333;
+    border-radius: 5px;
 }
